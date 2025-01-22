@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/03/91/46/10/240_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main h1 {
+    color: aqua;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.main p {
+    color: rgb(220, 252, 252);
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.color1 h3 {
+    color: rgb(202, 71, 71);
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.color1 p {
+    color: aliceblue;
+    padding-left: 40px;
+    padding-top: 8px;
+    font-family: Arial;
+}
+
+.color1 .src {
+    background-size: 50px;
+    height: 100px;
+    width: 50px;
+    margin-top: 10px;
+    padding-left: 50%;
+    margin-left: 50px;
+}

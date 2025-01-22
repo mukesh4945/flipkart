@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhumka Eaerring</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #e0e092;
+        }
+        .yello{
+            background-color: #ebae53;
+            width: 100%;
+            height: 2.5cm;
+        }
+        .lg5 input{
+            margin-right: 220px;
+            height: 30px;
+            width: 24%;
+            border: 1px solid rgb(186, 8, 94);
+            border-radius: 3px;
+            background-color: rgb(121, 225, 232);
+            transition: width 0.3s ease-in-out;
+        }
+        .lg5 input[type=text]:focus {
+            width: 49.5%;
+          }
+        .lg1 img{
+            height: 60px;
+            width: 150px;
+            float: left;
+            box-shadow:1px 1px ;
+        }
+        .lg2 a img{
+            width:33px;
+            height: 33px; 
+            border-radius: 50%; 
+            background-color: rgb(186, 8, 94);
+        }
+        .lg2 a img:hover{
+            color: #f9cd06;
+        }
+        .lg2 a img:hover{
+            color: rgb(200, 7, 7);
+        }
+        .lg3 button{
+            height: 35px;
+            width: 109px;
+            border-radius: 3px;
+            margin-left: -225px;
+            background-color: rgb(121, 225, 232);
+            border:1px solid rgb(186, 8, 94);
+        }
+        .lg3 button:hover{
+            background-color:#0ef;
+            color:black;
+        }
+        .nav2{
+            background-color: rgb(186, 8, 94);
+            position: sticky;
+            border: 1px solid black;
+            top: 0;
+        }
+        .nav2 li {
+            list-style-type: none;
+            display: inline-block;
+            margin-top: -18px;
+            padding: 20px;
+            font-weight: 600;
+            font-family:Arial ;
+           
+        }
+        .nav2  ul li a:hover{
+            color: rgb(226, 168, 22);
+        }
+        .nav2  ul li a{
+            color: rgb(253, 251, 251);
+            text-decoration: none;
+        }
+        .akm2  a{
+            width: 102px;
+            height: 32px;
+            color: rgb(186, 8, 94);
+            padding-right: 15px;
+            text-decoration: none;
+            border-radius:4px ;
+        }
+        .akm2 a:hover{
+        color:#f5d33b;
+            box-shadow: 0 0 20px #0ef;
+        }
+        .akm3 a{
+            color: rgb(186, 8, 94) ;
+            font-size:15px ;
+            font-family:Arial ;
+        }
+        .lgg1 a{
+            color: rgb(186, 8, 94);
+            font-size: 25px;
+            border-radius: 8px;
+           text-align: center;
+            text-decoration: none;
+            margin: 19px;
+            padding: -23px;
+        }
+        .lgg1 a:hover{
+            color:#f9f9f8;
+            background-color: rgb(138, 240, 247);
+        }
+        .dropdown{
+            display: none;
+            background-color:rgb(186, 8, 94);
+        }
+        ul li:hover .dropdown{
+            display:block ;
+            position: absolute;
+            margin-left: -0.6cm;
+            margin-top:15px;
+            color: rgb(250, 247, 247);
+            transition: 0.3s;
+        }
+        .dropdown ul li {
+            display: block; 
+            font-size: 15px;
+            height: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(186, 8, 94);
+        }
+        
+        .dropdown ul li:hover{
+        color: black;
+        }
+        .shh1 input{
+            width: 140px;
+            height: 30px;
+            background-color: rgb(21, 21, 228);
+            color: white;
+        }
+        .shh1 {
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+         }
+         .shh1:hover{
+             transform: scale(1.05);
+         }
+        .Beelo2 ul {
+            margin-left: 15px;
+            color: #fcfafa;
+        }
+        .blkk1 {
+            background-color: #2874f0;
+            height: 25px;
+        }
+        .mmmm1{
+            width: 50%;
+            height: 30px;
+            margin-bottom: 93px;
+            margin-left: 30px;
+        }
+        .mmmm2{
+            width: 20%;
+            height: 34px;
+            margin-left:-5px;
+            color: #0b0b0a;
+        }
+        .mmmm2:hover{
+            color: rgb(7, 7, 249);
+        }
+        .padd{
+            padding-left: 40px;
+        }
+        .cart{
+            margin-left: 20px;
+         border: 1px solid black;
+         color: white;
+         font-size: 25px;
+         background-color: rgb(254, 177, 34);
+        }
+        .cart:hover{
+            background-color: rgb(248, 166, 13);
+        }
+        .buy{
+         border:1px solid black;
+         
+         color: white;
+         font-size: 28px;
+         background-color: rgb(6, 162, 6);
+         margin-left: 150px;
+        }
+        .buy:hover{
+            background-color:green ;
+        }
+    </style>
+</head>
+<body>
+    <table class="yello">
+        <tr>
+            <td class="lg1" align="left"><img src="image/sel1.png"><h3 style="margin-left:40px; width:185px;margin-top:0px;color:rgb(207, 2, 2);font-style:bold;">Big-Seller</h3></td>
+            <td class="lg5"><input type="text"placeholder="Search for product & more"></td>
+            <td class="lg3"><button>Search</button></td>
+            <td class="lgg1"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href=" https://whatsapp.com "><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://x.com"><i class="fa-brands fa-x-twitter"></i></a></td>
+            <th class="akm2"><a href="fkb1.html"><i class="fa-regular fa-user"></i>Login</a></th>
+            <th class="akm3"><a href="#">more</a></th>
+            <th class="lg2"><a href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg"></a></th>
+        </tr>
+            </table>
+            <nav class="nav2">
+              <ul>
+                <li><a href="#"><i class="fa fa-bolt" aria-hidden="true"></i>
+                  Electronics</a>
+                  <div class="dropdown">
+                    <ul class="fix">
+                     <li><a href="Prodect/bulb.html">Bulb</a></li>
+                     <li><a href="Prodect/Eltc.html">Electric Wire</a></li>
+                     <li><a href="Prodect/tcf.html">Torch & Fan</a></li>
+                     <li>Coolar & Fridge</li>
+                     <li>More...</li>
+                    </ul>
+                    </div>
+                </li>
+                <li><a href="#"><i class="fa fa-cubes" aria-hidden="true"></i>
+                  Appliances</a>
+                  <div class="dropdown">
+                    <ul class="fix">
+                     <li>TV & LED</li>
+                     <li>Solar Pannel</li>
+                     <li>Digital Camera</li>
+                     <li>Wachin Machine</li>
+                     <li>More...</li>
+                    </ul>
+                    </div>
+                  </li>
+                <li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>
+                  Mobiles</a>
+                  <div class="dropdown">
+                    <ul class="fix">
+                     <li>T-Shirt</li>
+                     <li>Shirt</li>
+                     <li>Jeans</li>
+                     <li>Formal cloths</li>
+                     <li>Cap</li>
+                     <li>More...</li>
+                    </ul>
+                    </div>
+                  </li>
+                <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>
+                  Home & Furniture</a>
+                  <div class="dropdown">
+                    <ul class="fix">
+                     <li>T-Shirt</li>
+                     <li>Ethnic Dress</li>
+                     <li>Frock</li>
+                     <li>Bodycon Dress</li>
+                     <li>More...</li>
+                    </ul>
+                    </div>
+                  </li>
+                <li><a href="#"><i class="fa fa-asterisk" aria-hidden="true"></i>Baby & Kind</a>
+                  <div class="dropdown">
+                    <ul class="fix">
+                     <li>Baby Cloths</li>
+                     <li>Baby Toy</li>
+                     <li>Baby Shooes</li>
+                     <li>Bay Cap</li>
+                     <li>More...</li>
+                    </ul>
+                    </div>
+                  </li>
+                <li><a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i>
+                  Fashion</a>
+                  <div class="dropdown">
+                    <ul class="fix">
+                     <li>TV & LED for home</li>
+                     <li>Window side</li>
+                     <li>Home Toy</li>
+                     <li>Coolar & Fridge</li>
+                     <li>More...</li>
+                    </ul>
+                    </div></li>
+                <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home & Funiture</a>
+                  <div class="dropdown">
+                    <ul class="fix">
+                     <li>Sport Tols</li>
+                     <li>Books</li>
+                     <li>Story book</li>
+                     <li>Sell news papper</li>
+                     <li>More...</li>
+                    </ul>
+                    </div>
+                  </li>
+                <li><a href="#"><i class="fa fa-tint" aria-hidden="true"></i>
+                  Offer Zone</a>
+                  <div class="dropdown">
+                    <ul class="fix">
+                     <li>Discount sell</li>
+                     <li>Smart Phone</li>
+                     <li>Smart Watch</li>
+                     <li>Coolar & Fridge</li>
+                     <li>More...</li>
+                     </ul>
+                    </div>
+              </li>
+          </nav>
+    <table border="0" width="100%">
+   <tr >
+    <td width="30%"><img src="image/jh3.webp" width="100%"></td>
+    <td class="padd">
+        <b><font size="5">-Gold Jhumka Earrings For Women Jhumka 
+            with Hair Chain Long Gold Bahubali Baliyan Quartz Brass Jhumki Earring</font></b>
+        <br>
+        <br>
+        <font color="red">Special price </font>
+        <br>
+        <font color="green"><b>₹496</b></font>
+        <font size="2"><small><strike>₹999</strike></small></font>
+        <font color="green" size="3">75% off</font>
+        <br>
+              <span><i class="fa-solid fa-star" style="color:orange"></i></span>
+              <span><i class="fa-solid fa-star" style="color:orange"></i></i></span>
+              <span><i class="fa-solid fa-star" style="color:orange"></i></i></span>
+              <span><i class="fa-solid fa-star" style="color:orange"></i></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+
+              <br><br>
+              <h3>Available offers:-</h3>
+              <ul>
+                <li> Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit CardT&C </li>
+                <li>Bank Offer10% off up to ₹750 on Axis Bank Credit Cards (incl. migrated ones), on orders of ₹2,500 and aboveT&C  </li>
+                <li> Bank Offer10% off up to ₹750 on HDFC Bank Credit Card EMI on 3 months tenure. Min. Txn Value: ₹5000T&C </li>
+                <li> Special PriceGet extra 16% off (price inclusive of cashback/coupon)T&C </li>
+              </ul><br><br>
+              <button class="cart">Add To Cart</button>
+              <button class="buy">Buy Now</button>
+        </td>     
+   </tr>
+    </table>
+    <br>
+    <br>
+    <table class="blkk1" border="0" width="100%">
+        <tr>
+           <td bgcolor="black"> <font color="white"><b>Quick Links</b></font></td>
+           <td bgcolor="black">  <font color="white"><b>Follow Us</b></font></td>
+           <td bgcolor="black">  <font color="white"><b>Contact</b></font></td>
+           <td bgcolor="black">  <font color="white"><b>Search</b></font></td>
+        </tr>
+            <tr>
+          <td class="Beelo2">
+            <ul>
+             <li>Electronics</li><br>
+             <li>TVs & Appliances</li><br>
+             <li>Men</li><br>
+            <li>Women</li><br>
+          </ul>
+        </td>
+    
+          <td class="Beelo2">
+            <ul>
+             <li>Facebook</li><br>
+             <li>Twitter</li><br>
+             <li>Instagram</li><br>
+             <li>Whatsapp</li><br>
+          </ul>
+        </td>
+    
+          <td class="Beelo2">
+            <ul>
+              <li>Developer : Mukesh Vishwakarma</li>
+             <li>Country : India</li><br>
+             <li> State : Uttar Pradesh</li><br>
+             <li> Mob : +91 8931841146</li><br>
+            <li>Pin Code : 276129</li><br>
+          </ul>
+          <td>
+            <input class="mmmm1" type="text" placeholder="Search..">
+            <input class="mmmm2" type="button" value="Search">
+          </td>
+        </td>
+      </tr>
+    </table>
+</body>
+</html>
